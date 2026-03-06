@@ -1,0 +1,5 @@
+datasets/1000_cars_with_refs.json filter=lfs diff=lfs merge=lfs -text
+datasets/1000_rivers_with_refs.json filter=lfs diff=lfs merge=lfs -text
+datasets/1000_disasters_with_refs.json filter=lfs diff=lfs merge=lfs -text
+*.json filter=lfs diff=lfs merge=lfs -text
+*.csv filter=lfs diff=lfs merge=lfs -text

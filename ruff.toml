@@ -1,0 +1,31 @@
+[lint]
+# Enable specific rules
+select = [
+    "I",     # isort (import sorting)
+    "E",     # pycodestyle errors
+    "W",     # pycodestyle warnings
+    "F",     # pyflakes
+    "B",     # bugbear
+    "C4",    # comprehensions
+    "UP",    # pyupgrade
+    "SIM",   # simplify
+]
+
+[format]
+# Ensure trailing newline at end of file
+line-ending = "auto"
+
+# Function call formatting
+# Force each parameter to be on its own line and add trailing comma
+skip-magic-trailing-comma = false
+
+# Indentation settings
+indent-style = "space"
+
+# Quote style
+quote-style = "double"
+
+# Force multiline formatting for function calls
+# This will put each argument on its own line
+# force-multiline = true
+
