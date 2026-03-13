@@ -22,6 +22,16 @@ domain = "rivers"
 # Load entity data (contexts)
 entity_data = load_dataset("s-nlp/RiDiC", domain)["test"]
 ```
+### Full RiDiC Contexts
+
+The full version of RiDiC with additional refeference pages and search results are available at Google Drive:
+
+1. [Rivers](https://drive.google.com/file/d/1d-pHnIDJd7_mlH-BgIz5w4MJTJ6k-nH2/view?usp=drive_link)
+
+2. [Disasters](https://drive.google.com/file/d/1pWA21BeO0F1D9lvuAQOWq_JaDmLLBpD1/view?usp=drive_link)
+
+3. [Cars](https://drive.google.com/file/d/14kLWH2FquPvwcBVcXsLDrX1amRcABnJb/view?usp=drive_link)
+
 
 ### Loading LLM Generations
 Load the generated responses for evaluation.
